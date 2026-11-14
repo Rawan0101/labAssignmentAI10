@@ -1,0 +1,35 @@
+Run 1: wrong password, then correct on the second attempt
+
+?- login.
+Enter username:
+|: rawan.
+Enter password:
+|: wrong.
+Login Unsuccessful
+Enter username:
+|: rawan.
+Enter password:
+|: pass123.
+Login Successful
+true.
+
+Run 2: three wrong attempts
+
+?- login.
+Enter username:
+|: sara.
+Enter password:
+|: 111.
+Login Unsuccessful
+Enter username:
+|: omar.
+Enter password:
+|: abc456.
+Login Unsuccessful
+Enter username:
+|: sara.
+Enter password:
+|: xyz.
+Login Unsuccessful
+Sorry, you exceeded the maximum number of attempts, try again later.
+true.

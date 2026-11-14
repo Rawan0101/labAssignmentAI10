@@ -1,0 +1,17 @@
+?- square_area(5, A).
+A = 25.
+
+?- square_perimeter(5, P).
+P = 20.
+
+?- rectangle_area(6, 4, A).
+A = 24.
+
+?- rectangle_perimeter(6, 4, P).
+P = 20.
+
+?- triangle_area(6, 4, A).
+A = 12.0.
+
+?- triangle_perimeter(3, 4, 5, P).
+P = 12.
